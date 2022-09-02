@@ -19,7 +19,6 @@ html {
 
 body {
     background: var(--white) url(assets/bg-main-mobile.png) no-repeat 0 -20%;
-    background-blend-mode: multiply;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +60,7 @@ body {
 .device {
     max-width: 60%;
     margin: auto;
-    transform: translateY(-6em) translateX(40%);
+    transform: translateY(-6em) translateX(32%);
 }
 
 .plan-details {
