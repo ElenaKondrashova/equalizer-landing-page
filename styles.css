@@ -203,10 +203,9 @@ footer {
     max-width: 30%;
 }
 
-img:hover {
-    background: hsla(12, 94%, 65%, 1);
+.social img:hover {
     cursor: pointer;
-    transition: 0.2s ease-in;
+    filter: invert(62%) sepia(40%) saturate(4134%) hue-rotate(327deg) brightness(103%) contrast(96%);
 }
 
 /* Small devices (portrait phones, 480px and up) */
